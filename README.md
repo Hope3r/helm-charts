@@ -1,1 +1,1 @@
-# helm-chats
+# helm-charts

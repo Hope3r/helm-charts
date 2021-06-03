@@ -2,19 +2,11 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v2
-    created: "2021-06-03T16:32:48.961402+02:00"
+    created: "2021-06-03T16:38:25.861128+02:00"
     description: Hope3r nginx
-    digest: 50a432800a8c790542dddefdac98061cf6ca273a7d4b4cb55517cc5dfc9c2488
+    digest: f9e49cd3e2bbaeba12c1f98b26fa4735c8003261fd2fcfd43f4f4094eda9be1e
     name: nginx
     urls:
-    - .deploy/nginx-0.1.2.tgz
+    - https://hope3r.github.io/helm-charts/releases/download/nginx-0.1.2.tgz
     version: 0.1.2
-  - apiVersion: v2
-    created: "2021-06-03T16:32:48.960912+02:00"
-    description: Simple nginx deployment usable for deploying proxies or small sites.
-    digest: 923b92e3db977ae64bcd91c6194f6a4cd518a49b634bd4050265891244f65f2a
-    name: nginx
-    urls:
-    - .deploy/nginx-0.1.1.tgz
-    version: 0.1.1
-generated: "2021-06-03T16:32:48.960315+02:00"
+generated: "2021-06-03T16:38:25.860339+02:00"

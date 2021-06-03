@@ -15,7 +15,7 @@ index-path: ./index
 ```
 
 ```yaml
-helm package charts/<app> -d ./packages
+helm package charts/<app> -d .packages
 cr upload --config config.yaml --skip-existing
-helm repo index --url https://hope3r.github.io/helm-charts/releases/download/<package_version> ./packages
+helm repo index . --url https://hope3r.github.io/helm-charts/releases/download/<package_version> --merge index.yaml
 ```

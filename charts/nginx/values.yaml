@@ -127,10 +127,10 @@ indexhtml: |
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Nginx {{ .Values.env }}</title>
+      <title>Nginx Staging</title>
     </head>
     <body>
-    Environment : <strong>{{ .Values.env }}</strong>
+    Environment : <strong>Staging</strong>
     <p>Version 0.1.6</p>
     </body>
     </html>

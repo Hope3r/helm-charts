@@ -7,6 +7,6 @@ entries:
     digest: f0e389c812b306166cbc0b43618e5296115ad70346b0563518b464e7d02a5b86
     name: nginx
     urls:
-    - https://hope3r.github.io/helm-charts/nginx-0.1.6.tgz
+    - https://github.com/Hope3r/helm-charts/releases/download/nginx-0.1.6/nginx-0.1.6.tgz
     version: 0.1.6
 generated: "2021-06-07T12:26:48.470327+02:00"

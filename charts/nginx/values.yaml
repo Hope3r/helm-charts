@@ -131,6 +131,6 @@ indexhtml: |
     </head>
     <body>
     Environment : <strong>Staging</strong>
-    <p>Version 0.1.6</p>
+    <p>Version 0.1.8</p>
     </body>
     </html>

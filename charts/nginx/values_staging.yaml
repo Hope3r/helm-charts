@@ -35,7 +35,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - staging.kube.local
+    - nginx.staging
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:

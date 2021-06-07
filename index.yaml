@@ -2,19 +2,19 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v2
-    created: "2021-06-03T16:50:03.557831+02:00"
-    description: Hope3r nginx
-    digest: 0677f9e5871ea240bf11d7bc746d1ce3d9d1ce4d1be6cdd25932190a193ddc4c
+    created: "2021-06-07T11:52:14.845021+02:00"
+    description: chartmuseum nginx
+    digest: 0af85980830e4948e44e709c6a2ae07980e4fa5b83b20c649e5dd31873dfe76f
     name: nginx
     urls:
-    - https://hope3r.github.io/helm-charts/releases/download/nginx-0.1.3./.packages/nginx-0.1.3.tgz
-    version: 0.1.3
+    - http://registry.local/charts/.packages/nginx-0.1.6.tgz
+    version: 0.1.6
   - apiVersion: v2
-    created: "2021-06-03T16:40:08.604174+02:00"
-    description: Hope3r nginx
-    digest: f9e49cd3e2bbaeba12c1f98b26fa4735c8003261fd2fcfd43f4f4094eda9be1e
+    created: "2021-06-07T11:52:14.844607+02:00"
+    description: chartmuseum nginx
+    digest: 93159dd17441d2cd4f121b7f5f4e10b2ba0712640c64ff0a9236facc44c4dd5d
     name: nginx
     urls:
-    - https://hope3r.github.io/helm-charts/releases/download/nginx-0.1.2/nginx-0.1.2.tgz
-    version: 0.1.2
-generated: "2021-06-03T16:50:03.556879+02:00"
+    - http://registry.local/charts/.packages/nginx-0.1.5.tgz
+    version: 0.1.5
+generated: "2021-06-07T11:52:14.844011+02:00"

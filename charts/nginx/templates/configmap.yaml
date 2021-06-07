@@ -10,14 +10,5 @@ data:
   {{ $key }}:
     {{ toYaml $value | indent 4 | trim }}
 {{- end }}
-  index.html: |
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Nginx {{ .Values.env }}</title>
-    </head>
-    <body>
-    Environment : <strong>{{ .Values.env }}</strong>
-    </body>
-    </html>
-
+  index.html:
+    {{ toYaml .Values.indexhtml | indent 4 | trim }}

@@ -1,6 +1,6 @@
-env: prod
+env: staging
 
-replicaCount: 4
+replicaCount: 1
 revisionHistoryLimit: 0
 
 ## PodDisruptionBudget
@@ -33,9 +33,9 @@ ingress:
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
-  path: /
-  hosts:
-    - nginx.production
+  # path: /
+  # hosts:
+  #   - nginx.staging
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
@@ -123,3 +123,14 @@ configData: |-
     #    deny  all;
     #}
   }
+indexhtml: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Nginx {{ .Values.env }}</title>
+    </head>
+    <body>
+    Environment : <strong>{{ .Values.env }}</strong>
+    <p>Version 0.1.6</p>
+    </body>
+    </html>

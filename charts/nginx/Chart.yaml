@@ -1,4 +1,4 @@
 apiVersion: v2
-description: Hope3r nginx
+description: chartmuseum nginx
 name: nginx
-version: 0.1.3
+version: 0.1.6

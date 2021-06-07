@@ -1,5 +1,14 @@
 apiVersion: v1
 entries:
+  nginxcerise:
+  - apiVersion: v2
+    created: "2021-06-07T16:46:17.952447+02:00"
+    description: Nginx chart for testing
+    digest: 0c2f337db973937e320fba61986510547a21418f477f0e3685c97499f52f3aba
+    name: nginxcerise
+    urls:
+    - https://github.com/Hope3r/helm-charts/releases/download/nginx-0.1.1/nginxcerise-0.1.1.tgz
+    version: 0.1.1
   nginx:
   - apiVersion: v2
     appVersion: 0.1.11

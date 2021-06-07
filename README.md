@@ -15,9 +15,10 @@ index-path: ./index
 ```
 
 ```yaml
-helm package charts/<app> -d .packages
+helm package charts/nginx -d .packages
+helm repo index .packages --url https://hope3r.github.io/helm-charts/
+Modifier les urls dans index.yaml (https://hope3r.github.io/helm-charts/nginx-0.1.8.tgz -> https://github.com/Hope3r/helm-charts/releases/download/nginx-0.1.8/nginx-0.1.8.tgz)
 cr upload --config config.yaml --skip-existing
-helm repo index . --url https://dev.services.cerise.media/RLE/helm-repository/releases/download/<package_version> --merge index.yaml
 git commit index.yaml -m "release <package_version>"
 git push
 ```

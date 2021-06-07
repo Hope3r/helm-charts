@@ -7,7 +7,7 @@ entries:
     digest: 0c2f337db973937e320fba61986510547a21418f477f0e3685c97499f52f3aba
     name: nginxcerise
     urls:
-    - https://github.com/Hope3r/helm-charts/releases/download/nginx-0.1.1/nginxcerise-0.1.1.tgz
+    - https://github.com/Hope3r/helm-charts/releases/download/nginxcerise-0.1.1/nginxcerise-0.1.1.tgz
     version: 0.1.1
   nginx:
   - apiVersion: v2
